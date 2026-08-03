@@ -1,0 +1,8 @@
+pull_request_rules:
+  - name: automerge-085735
+    conditions:
+      - base=release
+    actions:
+      merge:
+        method: merge
+        merge_bot_account: kirasec-research1
